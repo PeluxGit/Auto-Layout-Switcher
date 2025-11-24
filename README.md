@@ -1,6 +1,6 @@
 # Auto Layout Switcher
 
-Automatically swaps your Edit Mode layout whenever you activate a different talent loadout.
+Automatically swaps your Edit Mode layout whenever you activate a different talent loadout. By default, WoW only remembers the last layout used per specialization and swaps when you change specs; this add-on extends that behavior so each talent loadout of the same spec can have its own layout.
 
 ## Features
 
