@@ -1,6 +1,4 @@
 name: Release Addon
-permissions:
-  contents: write
 
 on:
   release:
@@ -15,10 +13,11 @@ on:
 
 jobs:
   release:
+    permissions:
+      contents: write
     uses: PeluxGit/wow-addon-release-workflows/.github/workflows/addon-release.yml@v1
     with:
       addon_folder: ${{ vars.ADDON_FOLDER || github.event.repository.name }}
       addon_title: ${{ vars.ADDON_TITLE || vars.ADDON_FOLDER || github.event.repository.name }}
       skip_publish: ${{ inputs.skip_publish }}
     secrets: inherit
-
