@@ -1,4 +1,7 @@
 name: Release Addon
+permissions:
+  contents: write
+
 on:
   release:
     types: [published]
