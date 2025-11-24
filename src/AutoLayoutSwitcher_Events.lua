@@ -30,7 +30,7 @@ local function HandleList()
         end
     end
     if count == 0 then
-        print("AutoLayoutSwitcher: No mappings saved. Use /als map <loadoutID> <layoutIndex> to add one.")
+        print("AutoLayoutSwitcher: No mappings saved.")
     end
 end
 
