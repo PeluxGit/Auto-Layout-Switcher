@@ -1,0 +1,29 @@
+# Shared entries excluded everywhere (GitHub release zip + packager providers)
+common:
+  - README.md
+  - CHANGELOG.md
+  - LICENSE
+  - .git
+  - .github
+  - .gitignore
+  - .pkgmeta
+  - .editorconfig
+  - .luarc.json
+  - .luacheckrc
+  - .stylua.toml
+  - .prettierrc
+  - .prettierrc.json
+  - .prettierignore
+  - .idea
+  - .vscode
+  - .vs
+  - .DS_Store
+  - Thumbs.db
+  - packager-ignore.yml
+
+# Extra entries only excluded from the GitHub release zip
+zip: []
+
+# Extra entries only excluded from the addon provider uploads
+packager: []
+

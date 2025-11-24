@@ -1,0 +1,21 @@
+name: Release Addon
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      skip_publish:
+        description: "Only create zip, don't push to addon services"
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  release:
+    uses: PeluxGit/wow-addon-release-workflows/.github/workflows/addon-release.yml@v1
+    with:
+      addon_folder: ${{ vars.ADDON_FOLDER || github.event.repository.name }}
+      addon_title: ${{ vars.ADDON_TITLE || vars.ADDON_FOLDER || github.event.repository.name }}
+      skip_publish: ${{ inputs.skip_publish }}
+    secrets: inherit
+
