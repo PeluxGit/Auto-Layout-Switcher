@@ -13,4 +13,3 @@ manual-changelog: CHANGELOG_RELEASE.md
 # WoWInterface-specific behavior: we'll use manual changelog and convert markdown
 wowi-create-changelog: no
 wowi-convert-changelog: yes
-
