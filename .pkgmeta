@@ -6,7 +6,6 @@ ignore:
     # Filled by release workflow from packager-ignore.yml
     __PACKAGER_IGNORE__
 
-
 # Use curated changelog content for provider release notes
 changelog-title: "__ADDON_TITLE__ v@project-version@"
 manual-changelog: CHANGELOG_RELEASE.md
