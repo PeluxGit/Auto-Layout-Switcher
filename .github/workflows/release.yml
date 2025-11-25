@@ -21,4 +21,3 @@ jobs:
       addon_title: ${{ vars.ADDON_TITLE || vars.ADDON_FOLDER || github.event.repository.name }}
       skip_publish: ${{ github.event_name == 'workflow_dispatch' && inputs.skip_publish || false }}
     secrets: inherit
-
