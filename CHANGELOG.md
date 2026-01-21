@@ -1,6 +1,14 @@
 # Changelog
 
-## v2025-11-24 - Initial release
+## [2026-01-21]
+
+### Changed
+
+- Updated interface version to 120000
+
+## [v2025-11-24]
+
+### Initial release
 
 - Automatically switch Edit Mode layouts when activating talent loadouts (per loadout, not just per spec).
 - Per-loadout mapping UI in Game Menu → Options → AddOns → Auto Layout Switcher.
