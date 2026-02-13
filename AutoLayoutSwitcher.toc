@@ -1,14 +1,12 @@
-## Interface: 120000
+## Interface: 120001
 ## Title: Auto Layout Switcher
 ## Notes: Switches UI layout based on Talent Loadout
 ## Author: PeluxGit
-## Version: v2025-11-24
+## Version: {current version}
 ## SavedVariables: AutoLayoutSwitcherDB
+## Category: User Interface
 ## X-Website: https://github.com/PeluxGit/Auto-Layout-Switcher
 ## X-Curse-Project-ID: 1388849
-## X-Wago-ID:
-## X-WoWI-ID:
-## X-Category: Interface Enhancements
 
 src/AutoLayoutSwitcher_DB.lua
 src/AutoLayoutSwitcher_Debug.lua
