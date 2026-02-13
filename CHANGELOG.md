@@ -1,5 +1,11 @@
 # Changelog
 
+## [2026-02-13]
+
+### Changed
+
+- Updated interface version to 120001
+
 ## [2026-01-21]
 
 ### Changed
