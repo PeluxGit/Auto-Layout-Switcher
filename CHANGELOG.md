@@ -4,6 +4,12 @@
 
 ### Changed
 
+- Updated interface version to 120105
+
+## [2026-08-15]
+
+### Changed
+
 - Updated interface version to 120100
 
 ## [2026-02-13]
